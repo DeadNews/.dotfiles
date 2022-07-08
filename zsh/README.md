@@ -1,0 +1,3 @@
+# shell
+
+- <https://github.com/romkatv/powerlevel10k>

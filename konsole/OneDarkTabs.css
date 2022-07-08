@@ -1,0 +1,18 @@
+/* Based on tusharkant15's work (https://gist.github.com/tusharkant15/49febbb0527245d3a43cbb0e5bed6f46) */
+
+QToolButton {
+    background-color: #282c34;
+}
+QTabBar::tab {
+    color: #777;
+    background-color: #282c34; /* Pick from current color scheme from System Settings > Color > Modify > Colors > Window Background */
+    font-size: 16px;
+    height: 24px;
+    padding: 8px;
+}
+QTabBar::tab:selected, QTabBar::tab:hover {
+    color: #abb2bf; /* Pick from current color scheme from System Settings > Color > Modify > Colors > Window Text */
+    background: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0, stop: 0 #282c34, stop: 0.001 #282c34, stop: 0.07 #383c4a);
+                                                             /* Same as color         Same as color  Same as background-color*/
+}
+

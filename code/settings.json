@@ -1,0 +1,182 @@
+{
+    "breadcrumbs.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": true,
+    "editor.cursorBlinking": "phase",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.formatOnSaveMode": "file",
+    "editor.multiCursorModifier": "alt",
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "files.autoGuessEncoding": false,
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "security.workspace.trust.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.rightClickBehavior": "selectWord",
+    "update.mode": "none",
+    "window.newWindowDimensions": "maximized",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "One Dark Pro",
+    // "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#b0c1ff",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveBackground": "#e6e6e6",
+        "titleBar.inactiveForeground": "#000000",
+    },
+    "search.exclude": {
+        "**/.history": true
+    },
+    "files.associations": {
+        // Other
+        "*.vpy": "python",
+        "*.desktop": "properties",
+        "*.json": "jsonc",
+        "*.ipynb": "jupyter-notebook",
+        // Ansible
+        "**/defaults/**/*.yml": "jinja-yaml",
+        "**/group_vars/**/*": "jinja-yaml",
+        "**/host_vars/**/*": "jinja-yaml",
+        "**/vars/**/*.yml": "jinja-yaml",
+        "**/tasks/**/*.yml": "ansible",
+        "**/handlers/*.yml": "ansible",
+        "**/meta/*.yml": "ansible",
+        "**/roles/**/*.yml": "ansible",
+        "**/playbooks/**/*.yml": "ansible",
+        "**/ansible/**/hosts": "properties",
+        "**/ansible/**/inventory": "properties",
+        "ansible.cfg": "properties",
+        "**/ansible/*.yml": "ansible",
+    },
+    // Python //
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E203,E266,E402,E501,W291,W503,F541"
+    ],
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyCategorySeverity.error": "Warning",
+    "python.linting.mypyArgs": [
+        "--disallow-untyped-defs",
+        // "--follow-imports=silent",
+        "--ignore-missing-imports",
+        "--show-column-numbers",
+        "--sqlite-cache"
+    ],
+    "python.linting.banditEnabled": true,
+    "python.linting.banditArgs": [
+        "-s",
+        "B608,B604,B603,B404",
+    ],
+    "python.formatting.provider": "black",
+    // "python.formatting.blackArgs": [
+    //     "--line-length",
+    //     "88"
+    // ],
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "python.venvPath": "~/.virtualenvs",
+    // Go //
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "go.useLanguageServer": true,
+    "gopls": {
+        "formatting.gofumpt": true,
+    },
+    "go.lintTool": "golangci-lint",
+    // "go.lintFlags": [
+    //     "-E", "errname",
+    //     "-E", "exportloopref",
+    //     "-E", "go-printf-func-name",
+    //     "-E", "goconst",
+    //     "-E", "gocyclo",
+    //     "-E", "gosec",
+    //     "-E", "unconvert",
+    //   ],
+    // Git //
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    // Other //
+    "[markdown][yaml][toml][json][jsonc]": {
+        "editor.formatOnSave": true,
+    },
+    "yaml.format.printWidth": 88,
+    // Logs //
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "log.error",
+                "settings": {
+                    "foreground": "#e06c75"
+                }
+            },
+            {
+                "scope": "log.warning",
+                "settings": {
+                    "foreground": "#e06c75"
+                }
+            },
+            {
+                "scope": "log.info",
+                "settings": {
+                    "foreground": "#61afef"
+                }
+            }
+        ]
+    },
+    // Extensions //
+    "oneDarkPro.bold": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "color-highlight.markRuler": false,
+    "code-runner.enableAppInsights": false,
+    "sql-formatter.uppercase": true,
+    "better-comments.tags": [
+        {
+            "tag": "!!",
+            "color": "#e06c75"
+        },
+        {
+            "tag": "??",
+            "color": "#61afef"
+        },
+        {
+            "tag": "///",
+            "color": "#abb2bf",
+            "strikethrough": true
+        },
+        {
+            "tag": "**",
+            "color": "#d19a66"
+        },
+        {
+            "tag": "~~",
+            "color": "#98c379"
+        }
+    ],
+}

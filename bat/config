@@ -1,0 +1,4 @@
+--theme=TwoDark
+--italic-text=always
+--pager="less -FR"
+--paging=never

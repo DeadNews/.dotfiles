@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      create: true
+      glob: true
+      exclude: ["*/README.md"]
+
+- link:
+    ~/.config/bat/: bat/*
+    ~/.config/Code - OSS/User/settings.json: code/settings.json
+    ~/.config/micro/: micro/**
+    ~/.config/tmux/: tmux/*
+    ~/.local/share/konsole/: konsole/*
+    ~/.p10k.zsh: zsh/.p10k.zsh
+    ~/.zshrc: zsh/.zshrc
