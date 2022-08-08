@@ -6,7 +6,7 @@
 
 - link:
     ~/.config/bat/: bat/*
-    ~/.config/Code - OSS/User/settings.json: code/settings.json
+    ~/.config/Code - OSS/User/settings.json: .vscode/settings.json
     ~/.config/micro/: micro/**
     ~/.config/tmux/: tmux/*
     ~/.local/share/konsole/: konsole/*
