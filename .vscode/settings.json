@@ -1,12 +1,10 @@
 {
-    "breadcrumbs.enabled": false,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "diffEditor.renderSideBySide": true,
+    "diffEditor.renderSideBySide": false,
     "editor.cursorBlinking": "phase",
     "editor.detectIndentation": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "editor.formatOnSaveMode": "file",
     "editor.multiCursorModifier": "alt",
     "editor.renderControlCharacters": false,
@@ -32,12 +30,6 @@
     // "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
-    "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#b0c1ff",
-        "titleBar.activeForeground": "#000000",
-        "titleBar.inactiveBackground": "#e6e6e6",
-        "titleBar.inactiveForeground": "#000000",
-    },
     "search.exclude": {
         "**/.history": true
     },
