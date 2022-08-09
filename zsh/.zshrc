@@ -133,14 +133,16 @@ ipinfo() {
 # Editors
 export VISUAL=micro
 export EDITOR=micro
+# True color support in micro
+export MICRO_TRUECOLOR=1
 # Downgrading from A.L.A.
 export DOWNGRADE_FROM_ALA=1
 # Multithreaded XZ support
 export XZ_DEFAULTS="-T 0"
-# True color support in micro
-export MICRO_TRUECOLOR=1
 # fzf colors fix
 # https://github.com/junegunn/fzf/wiki/Color-schemes#one-dark
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
 --color=gutter:-1,bg+:#4f5666
 '
+# https://github.com/haad/proxychains#configuration
+export PROXYCHAINS_SOCKS5=1080
