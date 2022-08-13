@@ -1,0 +1,56 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/*
+Actions=image-uploader;image-uploader-tag;image-uploader-pw;image-optim;image_optim_png;getnative;getnative-detail
+X-KDE-Priority=TopLevel
+X-KDE-Submenu=image-menu
+# Icon=image/*
+# X-KDE-StartupNotify=false
+# StartupNotify=false
+
+
+[Desktop Action image-uploader]
+Name=image-uploader
+Exec=~/my/scripts/zsh/image-uploader.zsh %F
+
+[Desktop Action image-uploader-tag]
+Name=image-uploader-tag
+Exec=~/my/scripts/zsh/image-uploader.zsh --tag %F
+
+[Desktop Action image-uploader-pw]
+Name=image-uploader-pw
+Exec=~/my/scripts/zsh/image-uploader.zsh --pw %F
+
+[Desktop Action image-optim]
+Name=image-optim
+Icon=application/x-kdeuser1
+Exec=~/my/scripts/zsh/image-optim.zsh %F
+
+[Desktop Action image_optim_png]
+Name=image_optim_png
+Icon=application/x-kdeuser1
+Exec=~/my/scripts/zsh/image-optim.zsh --png_mod %F
+
+[Desktop Action getnative]
+Name=getnative
+Icon=application/x-kdeuser1
+Exec=~/my/scripts/zsh/getnative.zsh %F
+
+[Desktop Action getnative-detail]
+Name=getnative-detail
+Icon=application/x-kdeuser1
+Exec=~/my/scripts/zsh/getnative.zsh --detail %F
+
+
+# [Desktop Action waifu2x-s4-n3]
+# Name=waifu2x--scale4-noise3
+# Exec=~/my/scripts/zsh/waifu2x.zsh --scale 4 --noise 3 -- %F
+
+# [Desktop Action waifu2x-s8-n3]
+# Name=waifu2x--scale8-noise3
+# Exec=~/my/scripts/zsh/waifu2x.zsh --scale 8 --noise 3 -- %F
+
+# [Desktop Action waifu2x-s4-n1]
+# Name=waifu2x--scale4-noise1
+# Exec=~/my/scripts/zsh/waifu2x.zsh --scale 4 --noise 1 -- %F

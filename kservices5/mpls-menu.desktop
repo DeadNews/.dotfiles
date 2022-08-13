@@ -1,0 +1,63 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/mp2t
+Actions=mpls-trimmer;mpls-trimmer-s2;mpls-trimmer-s3;mpls-trimmer-s4;mpls-trimmer-s5;mpls-trimmer-s6;mpls-trimmer-s7;mpls-trimmer-s8;mpls-trimmer-s9;mpls-trimmer-s10;mpls-trimmer-s13;mpls-trimmer-s14;mpls-trimmer-s19;mpls-trimmer-s20
+X-KDE-Submenu=mpls-menu
+X-KDE-Priority=TopLevel
+
+[Desktop Action mpls-trimmer]
+Name=mpls-trimmer
+Exec=~/my/scripts/py/mpls-trimmer.py %F
+
+[Desktop Action mpls-trimmer-s2]
+Name=mpls-trimmer-s2
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 2
+
+[Desktop Action mpls-trimmer-s3]
+Name=mpls-trimmer-s3
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 3
+
+[Desktop Action mpls-trimmer-s4]
+Name=mpls-trimmer-s4
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 4
+
+[Desktop Action mpls-trimmer-s5]
+Name=mpls-trimmer-s5
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 5
+
+[Desktop Action mpls-trimmer-s6]
+Name=mpls-trimmer-s6
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 6
+
+[Desktop Action mpls-trimmer-s7]
+Name=mpls-trimmer-s7
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 7
+
+[Desktop Action mpls-trimmer-s8]
+Name=mpls-trimmer-s8
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 8
+
+[Desktop Action mpls-trimmer-s9]
+Name=mpls-trimmer-s9
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 9
+
+[Desktop Action mpls-trimmer-s10]
+Name=mpls-trimmer-s10
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 10
+
+[Desktop Action mpls-trimmer-s13]
+Name=mpls-trimmer-s13
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 13
+
+[Desktop Action mpls-trimmer-s14]
+Name=mpls-trimmer-s14
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 14
+
+[Desktop Action mpls-trimmer-s19]
+Name=mpls-trimmer-s19
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 19
+
+[Desktop Action mpls-trimmer-s20]
+Name=mpls-trimmer-s20
+Exec=~/my/scripts/py/mpls-trimmer.py %F -S 20

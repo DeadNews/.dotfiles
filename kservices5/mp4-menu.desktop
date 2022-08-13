@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/mp4
+Actions=num-frames-info
+# X-KDE-Submenu=vpy-menu
+X-KDE-Priority=TopLevel
+
+[Desktop Action num-frames-info]
+Name=num-frames-info
+Exec=konsole --new-tab --noclose -e "~/my/scripts/py/clip-num-frames.py %F"

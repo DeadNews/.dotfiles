@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/x-desktop
+Actions=updete-time
+X-KDE-Priority=TopLevel
+
+[Desktop Action updete-time]
+Name=updete-time
+Exec=$F=B; zsh -c "mv ${B} /tmp/ && mv /tmp/${B:h} ${B:t:r}"
+#Exec=touch %F
+

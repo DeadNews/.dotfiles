@@ -1,0 +1,31 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=text/plain
+Actions=chapt-to-bm-qp-yml;chapt-to-bm-qp-yml-mp;screens-parser;re-chapters;zones-validator;mkvmerge-mks-rename
+X-KDE-Submenu=text-menu
+X-KDE-Priority=TopLevel
+
+[Desktop Action chapt-to-bm-qp-yml]
+Name=chapt-to-bm-qp-yml
+Exec=~/my/scripts/py/chapt-to-bm-qp-yml.py %F
+
+[Desktop Action chapt-to-bm-qp-yml-mp]
+Name=chapt-to-bm-qp-yml-mp
+Exec=~/my/scripts/py/chapt-to-bm-qp-yml.py %F -mp
+
+[Desktop Action screens-parser]
+Name=screens-parser
+Exec=~/my/scripts/zsh/screens-parser.zsh %F
+
+[Desktop Action re-chapters]
+Name=re-chapters
+Exec=~/my/scripts/py/re-chapters.py %F
+
+[Desktop Action zones-validator]
+Name=zones-validator
+Exec=konsole --new-tab --noclose -e "~/my/scripts/py/zones-validator.py -i %F"
+
+[Desktop Action mkvmerge-mks-rename]
+Name=mkvmerge-mks-rename
+Exec=~/my/scripts/zsh/mkvmerge-mks-rename.zsh %F

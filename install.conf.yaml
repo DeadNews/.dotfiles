@@ -12,3 +12,4 @@
     ~/.local/share/konsole/: konsole/*
     ~/.p10k.zsh: zsh/.p10k.zsh
     ~/.zshrc: zsh/.zshrc
+    ~/.local/share/kservices5: kservices5

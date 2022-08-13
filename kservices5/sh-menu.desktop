@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/x-shellscript
+Actions=run-renpy
+#X-KDE-Submenu=Comic Book
+X-KDE-Priority=TopLevel
+
+
+[Desktop Action run-renpy]
+Name=run-renpy
+Exec=~/my/scripts/zsh/run-renpy.zsh %F

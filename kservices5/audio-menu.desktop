@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=audio/flac
+Actions=lac;resampler
+X-KDE-Submenu=audio-menu
+X-KDE-Priority=TopLevel
+
+[Desktop Action lac]
+Name=lac
+Exec=~/my/scripts/zsh/lac.zsh %F
+
+[Desktop Action resampler]
+Name=resampler
+Exec=~/my/scripts/zsh/resampler.zsh %F
