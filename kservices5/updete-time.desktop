@@ -9,4 +9,3 @@ X-KDE-Priority=TopLevel
 Name=updete-time
 Exec=$F=B; zsh -c "mv ${B} /tmp/ && mv /tmp/${B:h} ${B:t:r}"
 #Exec=touch %F
-
