@@ -111,6 +111,10 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
 # Suggests commands as you type based on history and completions.
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_USE_ASYNC=1
+# history-search-multi-word
+source /usr/share/zsh/plugins/history-search-multi-word/history-search-multi-word.plugin.zsh
+zstyle ":history-search-multi-word" highlight-color "bg=#4f5666,bold" # Color in which to highlight matched, searched text (default bg=17 on 256-color terminals)
+zstyle ":plugin:history-search-multi-word" active "standout"          # Effect on active history entry. Try: standout, bold, bg=blue (default underline)
 
 
 ## Funcs ##
