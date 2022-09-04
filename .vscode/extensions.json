@@ -1,29 +1,16 @@
 {
     "recommendations": [
-        "aaron-bond.better-comments",
-        "adpyke.vscode-sql-formatter",
         "alefragnani.project-manager",
-        "DavidAnson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
         "eamodio.gitlens",
         "edonet.vscode-command-runner",
         "emilast.LogFileHighlighter",
         "formulahendry.code-runner",
-        "foxundermoon.shell-format",
-        "golang.go",
-        "hangxingliu.vscode-nginx-conf-hint",
-        "mads-hartmann.bash-ide-vscode",
         "mikestead.dotenv",
-        "ms-azuretools.vscode-docker",
-        "ms-python.python",
-        "ms-toolsai.jupyter",
-        "ms-vscode-remote.remote-ssh-edit",
         "naumovs.color-highlight",
-        "ptweir.python-string-sql",
-        "redhat.ansible",
         "redhat.vscode-yaml",
         "tamasfe.even-better-toml",
         "vscode-icons-team.vscode-icons",
-        "wholroyd.jinja",
         "zhuangtongfa.material-theme"
     ]
 }
