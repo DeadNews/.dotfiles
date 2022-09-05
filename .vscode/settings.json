@@ -21,6 +21,7 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.rightClickBehavior": "selectWord",
+    "terminal.integrated.smoothScrolling": true,
     "update.mode": "none",
     "window.newWindowDimensions": "maximized",
     "window.titleBarStyle": "custom",
