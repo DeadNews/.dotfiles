@@ -10,6 +10,7 @@
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
+    "git.allowForcePush": true,
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
