@@ -33,7 +33,6 @@
         "**/.history": true
     },
     "files.associations": {
-        "*.vpy": "python",
         "*.desktop": "properties",
         "*.json": "jsonc",
     },
@@ -71,4 +70,7 @@
     "gitlens.statusBar.enabled": false,
     "oneDarkPro.bold": true,
     "vsicons.dontShowNewVersionMessage": true,
+    "projectManager.git.baseFolders": [
+        "~/git/"
+    ],
 }

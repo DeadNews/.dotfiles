@@ -7,6 +7,6 @@
 ## Installation
 
 ```sh
-pip install dotbot
+pipx install dotbot
 dotbot -c install.conf.yaml
 ```
