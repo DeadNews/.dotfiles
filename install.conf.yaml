@@ -10,6 +10,7 @@
     ~/.config/micro/: micro/**
     ~/.config/pbincli/pbincli.conf: pbincli/pbincli.conf
     ~/.config/tmux/: tmux/*
+    ~/.local/share/color-schemes/OneDarkNuanced.colors: plasma/OneDarkNuanced.colors
     ~/.local/share/konsole/: konsole/*
     ~/.local/share/kservices5: kservices5
     ~/.p10k.zsh: zsh/.p10k.zsh
