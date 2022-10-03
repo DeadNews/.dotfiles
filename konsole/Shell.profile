@@ -9,6 +9,7 @@ UseFontLineChararacters=true
 CursorShape=1
 
 [General]
+Command=/bin/zsh
 DimWhenInactive=false
 Name=Shell
 Parent=FALLBACK/
@@ -16,14 +17,18 @@ ShowTerminalSizeHint=false
 
 [Interaction Options]
 AutoCopySelectedText=true
+CopyTextAsHTML=false
 MiddleClickPasteMode=1
+MouseWheelZoomEnabled=false
+TrimLeadingSpacesInSelectedText=true
+TrimTrailingSpacesInSelectedText=true
 UnderlineFilesEnabled=true
 
 [Keyboard]
 KeyBindings=default
 
 [Scrolling]
-HighlightScrolledLines=false
+HighlightScrolledLines=true
 HistorySize=10000
 ReflowLines=true
 ScrollBarPosition=1
