@@ -8,8 +8,8 @@ X-KDE-Priority=TopLevel
 
 [Desktop Action lac]
 Name=lac
-Exec=~/my/scripts/zsh/lac.zsh %F
+Exec=~/git/zsh-scripts/src/lac.zsh %F
 
 [Desktop Action resampler]
 Name=resampler
-Exec=~/my/scripts/zsh/resampler.zsh %F
+Exec=~/git/zsh-scripts/src/resampler.zsh %F

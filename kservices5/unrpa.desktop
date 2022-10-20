@@ -3,13 +3,9 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=application/x-kdeuser1
 Actions=unrpa
-#X-KDE-Submenu=Comic Book
 X-KDE-Priority=TopLevel
-# Icon=application/x-kdeuser1
-#X-KDE-StartupNotify=false
-#StartupNotify=false
 
 [Desktop Action unrpa]
 Name=unrpa
 Icon=application/x-kdeuser1
-Exec=~/my/scripts/zsh/unrpa.zsh %F
+Exec=~/git/zsh-scripts/src/unrpa.zsh %F

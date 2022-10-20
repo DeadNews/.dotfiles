@@ -28,7 +28,7 @@ UnderlineFilesEnabled=true
 KeyBindings=default
 
 [Scrolling]
-HighlightScrolledLines=true
+HighlightScrolledLines=false
 HistorySize=10000
 ReflowLines=true
 ScrollBarPosition=1

@@ -8,8 +8,8 @@ X-KDE-Priority=TopLevel
 
 [Desktop Action resampler]
 Name=release-resampler
-Exec=~/my/scripts/zsh/resampler.zsh %F
+Exec=~/git/zsh-scripts/src/resampler.zsh %F
 
 [Desktop Action mkvmerge-mka-rename]
 Name=mkvmerge-mka-rename
-Exec=~/my/scripts/zsh/mkvmerge-mka-rename.zsh %F
+Exec=~/git/zsh-scripts/src/mkvmerge-mka-rename.zsh %F

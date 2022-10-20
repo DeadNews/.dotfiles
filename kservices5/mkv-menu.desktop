@@ -5,49 +5,43 @@ MimeType=video/x-matroska;video/mp4;application/x-kdeuser3;application/x-kdeuser
 Actions=mkvmerge-mux;mkvmerge-mux-rename;mkvmerge-mux-rename-year;mkvextract-chapters-txt;ffmpeg-attachments;mediainfo-privatebin;mkvpropedit-chapters;ffmsindex;plotbitrate;ffmpeg-mp4
 X-KDE-Submenu=mkv-menu
 X-KDE-Priority=TopLevel
-# Icon=video/x-matroska
-#X-KDE-StartupNotify=false
-#StartupNotify=false
 
 [Desktop Action mkvmerge-mux]
 Name=mkvmerge-mux
-Exec=~/my/scripts/zsh/mkvmerge-mux.zsh %F
+Exec=~/git/zsh-scripts/src/mkvmerge-mux.zsh %F
 
 [Desktop Action mkvmerge-mux-rename]
 Name=mkvmerge-mux-rename
-Exec=~/my/scripts/zsh/mkvmerge-mux.zsh --rename %F
+Exec=~/git/zsh-scripts/src/mkvmerge-mux.zsh --rename %F
 
 [Desktop Action mkvmerge-mux-rename-year]
 Name=mkvmerge-mux-rename-year
-Exec=~/my/scripts/zsh/mkvmerge-mux.zsh --rename --year_cli %F
-
-
+Exec=~/git/zsh-scripts/src/mkvmerge-mux.zsh --rename --year_cli %F
 
 [Desktop Action mkvextract-chapters-txt]
 Name=mkvextract-chapters-txt
-Exec=~/my/scripts/zsh/mkvextract-chapters.zsh --format txt %F
+Exec=~/git/zsh-scripts/src/mkvextract-chapters.zsh --format txt %F
 
 [Desktop Action ffmpeg-attachments]
 Name=ffmpeg-attachments
-Exec=~/my/scripts/zsh/ffmpeg-attachments.zsh %F
+Exec=~/git/zsh-scripts/src/ffmpeg-attachments.zsh %F
 
 [Desktop Action mediainfo-privatebin]
 Name=mediainfo-privatebin
-Exec=~/my/scripts/zsh/mediainfo-privatebin.zsh %F
+Exec=~/git/zsh-scripts/src/mediainfo-privatebin.zsh %F
 
 [Desktop Action mkvpropedit-chapters]
 Name=mkvpropedit-chapters
-Exec=~/my/scripts/zsh/mkvpropedit-chapters.zsh %F
-
+Exec=~/git/zsh-scripts/src/mkvpropedit-chapters.zsh %F
 
 [Desktop Action ffmsindex]
 Name=ffmsindex
-Exec=ffmsindex -k  %F
+Exec=ffmsindex -k %F
 
 [Desktop Action plotbitrate]
 Name=plotbitrate
-Exec=~/my/scripts/zsh/plotbitrate.zsh %F
+Exec=~/git/zsh-scripts/src/plotbitrate.zsh %F
 
 [Desktop Action ffmpeg-mp4]
 Name=ffmpeg-mp4
-Exec=~/my/scripts/zsh/ffmpeg-mp4.zsh %F
+Exec=~/git/zsh-scripts/src/ffmpeg-mp4.zsh %F

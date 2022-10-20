@@ -3,7 +3,6 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=application/x-bittorrent
 Actions=torrent-add-nyaa
-# X-KDE-Submenu=torrent-menu
 X-KDE-Priority=TopLevel
 
 [Desktop Action torrent-add-nyaa]

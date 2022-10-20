@@ -3,7 +3,6 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/mp4
 Actions=num-frames-info
-# X-KDE-Submenu=vpy-menu
 X-KDE-Priority=TopLevel
 
 [Desktop Action num-frames-info]

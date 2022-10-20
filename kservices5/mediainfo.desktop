@@ -3,13 +3,9 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=audio/*;video/*;application/x-matroska
 Actions=mediainfo
-# X-KDE-Submenu=audio
 X-KDE-Priority=TopLevel
-# Icon=audio/flac
-# X-KDE-StartupNotify=false
-# StartupNotify=false
 
 [Desktop Action mediainfo]
 Name=mediainfo
-Icon=~/my/images/icons/mediainfo.ico
-Exec=~/my/scripts/zsh/mediainfo.zsh %F
+# Icon=~/my/images/icons/mediainfo.ico
+Exec=~/git/zsh-scripts/src/mediainfo.zsh %F
