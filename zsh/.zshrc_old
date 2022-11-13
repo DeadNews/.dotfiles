@@ -1,0 +1,27 @@
+## Alias section
+alias ls='exa --icons --oneline --header'                       # exa is a modern replacement for ls
+
+
+## Plugins
+# Replace zsh's default completion selection menu with fzf!
+source ~/.fzf-tab/fzf-tab.plugin.zsh
+# preview directory's content with exa when completing cd
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
+# fzf colors fix: https://github.com/junegunn/fzf/wiki/Color-schemes#one-dark
+export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+--color=gutter:-1,bg+:#4f5666
+'
+
+# history-search-multi-word
+source /usr/share/zsh/plugins/history-search-multi-word/history-search-multi-word.plugin.zsh
+zstyle ":history-search-multi-word" highlight-color "bg=#4f5666,bold" # Color in which to highlight matched, searched text (default bg=17 on 256-color terminals)
+zstyle ":plugin:history-search-multi-word" active "standout"          # Effect on active history entry. Try: standout, bold, bg=blue (default underline)
+
+
+## Funcs section
+cheat() {
+    curl "https://cheat.sh/$1"
+}
+ipinfo() {
+    curl "https://ipinfo.io/$1"
+}

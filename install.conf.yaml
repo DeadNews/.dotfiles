@@ -5,8 +5,6 @@
       exclude: ["*/README.md"]
 
 - link:
-    # ~/.p10k.zsh: zsh/.p10k.zsh
-    # ~/.zshrc: zsh/.zshrc
     ~/.config/bat/: bat/*
     ~/.config/Code - OSS/User/settings.json: .vscode/settings.json
     ~/.config/micro/: micro/**
@@ -15,3 +13,4 @@
     ~/.local/share/color-schemes/OneDarkNuanced.colors: plasma/OneDarkNuanced.colors
     ~/.local/share/konsole/: konsole/*
     ~/.local/share/kservices5: kservices5
+    ~/.zshrc: zsh/.zshrc
