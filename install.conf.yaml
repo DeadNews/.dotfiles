@@ -13,4 +13,5 @@
     ~/.local/share/color-schemes/OneDarkNuanced.colors: plasma/OneDarkNuanced.colors
     ~/.local/share/konsole/: konsole/*
     ~/.local/share/kservices5: kservices5
+    ~/.local/share/zsh/user-config.zsh: zsh/user-config.zsh
     ~/.zshrc: zsh/.zshrc
