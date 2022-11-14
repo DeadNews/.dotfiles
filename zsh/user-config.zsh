@@ -1,5 +1,5 @@
 ## Alias section
-alias ls='exa'
+alias exa="exa --icons"
 
 ## Funcs section
 cheat() {
@@ -14,6 +14,10 @@ if [[ -e /usr/share/zsh/plugins/fzf-tab-git/fzf-tab.plugin.zsh ]]; then
   source /usr/share/zsh/plugins/fzf-tab-git/fzf-tab.plugin.zsh
   # set colors
   export FZF_DEFAULT_OPTS='--color=gutter:-1,bg+:#4f5666'
+  # preview directory's content with exa when completing cd
+  zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --icons $realpath'
+  # show systemd unit status
+  zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
 fi
 if [[ -e /usr/share/zsh/plugins/history-search-multi-word/history-search-multi-word.plugin.zsh ]]; then
   source /usr/share/zsh/plugins/history-search-multi-word/history-search-multi-word.plugin.zsh
