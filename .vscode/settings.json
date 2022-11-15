@@ -18,7 +18,6 @@
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.persistentSessionReviveProcess": "never",
@@ -74,4 +73,5 @@
     "projectManager.git.baseFolders": [
         "~/git/"
     ],
+    "python.venvPath": "~/.cache/pypoetry/virtualenvs",
 }

@@ -2,21 +2,21 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/*
-Actions=image-uploader;image-uploader-tag;image-uploader-pw;image-optim;image-optim-png;getnative;getnative-detail
+Actions=images-upload;images-upload-b;images-upload-t;image-optim;image-optim-png;getnative;getnative-detail
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=image-menu
 
-[Desktop Action image-uploader]
-Name=image-uploader
-Exec=~/git/zsh-scripts/src/image-uploader.zsh %F
+[Desktop Action images-upload]
+Name=images-upload
+Exec=images-upload-cli %F
 
-[Desktop Action image-uploader-tag]
-Name=image-uploader-tag
-Exec=~/git/zsh-scripts/src/image-uploader.zsh --tag %F
+[Desktop Action images-upload-b]
+Name=images-upload-b
+Exec=images-upload-cli --bbcode %F
 
-[Desktop Action image-uploader-pw]
-Name=image-uploader-pw
-Exec=~/git/zsh-scripts/src/image-uploader.zsh --pw %F
+[Desktop Action images-upload-t]
+Name=images-upload-t
+Exec=images-upload-cli --thumbnail %F
 
 [Desktop Action image-optim]
 Name=image-optim
@@ -26,7 +26,7 @@ Exec=~/git/zsh-scripts/src/image-optim.zsh %F
 [Desktop Action image-optim-png]
 Name=image-optim-png
 Icon=application/x-kdeuser1
-Exec=~/git/zsh-scripts/src/image-optim.zsh --png_mod %F
+Exec=~/git/zsh-scripts/src/image-optim.zsh --png-mod %F
 
 [Desktop Action getnative]
 Name=getnative

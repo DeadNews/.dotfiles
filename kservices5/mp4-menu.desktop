@@ -7,4 +7,4 @@ X-KDE-Priority=TopLevel
 
 [Desktop Action num-frames-info]
 Name=num-frames-info
-Exec=konsole --new-tab --noclose -e "~/my/scripts/py/clip-num-frames.py %F"
+Exec=konsole --new-tab --noclose -e "encode-utils-cli num-frames %F"

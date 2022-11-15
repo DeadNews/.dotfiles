@@ -7,5 +7,4 @@ X-KDE-Priority=TopLevel
 
 [Desktop Action mediainfo]
 Name=mediainfo
-# Icon=~/my/images/icons/mediainfo.ico
 Exec=~/git/zsh-scripts/src/mediainfo.zsh %F
