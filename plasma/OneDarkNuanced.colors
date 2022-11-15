@@ -90,16 +90,16 @@ ForegroundVisited=82,148,226
 
 [General]
 ColorScheme=Arc Dark
-Name=OneDark (my edit2)
+Name=One Dark Nuanced
 shadeSortColumn=true
 
 [KDE]
 contrast=4
 
 [WM]
-activeBackground=176,193,255
+activeBackground=33,37,43
 activeBlend=30,33,39
-activeForeground=0,0,0
-inactiveBackground=230,230,230
+activeForeground=252,252,252
+inactiveBackground=33,37,43
 inactiveBlend=30,33,39
-inactiveForeground=0,0,0
+inactiveForeground=161,169,177

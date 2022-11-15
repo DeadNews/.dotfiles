@@ -8,4 +8,4 @@ X-KDE-Priority=TopLevel
 
 [Desktop Action vspipe-info]
 Name=vspipe-info
-Exec=konsole --new-tab --noclose -e "~/my/scripts/zsh/vspipe-info.zsh %F"
+Exec=konsole --new-tab --noclose -e "~/git/zsh-scripts/src/vspipe-info.zsh %F"

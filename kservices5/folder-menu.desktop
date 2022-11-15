@@ -2,45 +2,27 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=inode/directory
-Actions=flac-folder;fonts-copy;upload-FtC;upload-FtC-wInLogs;mktorrent;mktorrent-inMkv;albumart-dl;7z;7z-psswd
+Actions=flac-folder;fonts-copy;mktorrent;mktorrent-in;albumart-dl
 X-KDE-Priority=TopLevel
 X-KDE-StartupNotify=false
 X-KDE-Submenu=folder-menu
 
-
 [Desktop Action flac-folder]
-Exec=~/my/scripts/zsh/ffmpeg-flac-folder.zsh %F
+Exec=~/git/zsh-scripts/src/flac-folder.zsh %F
 Name=flac-folder
 
-[Desktop Action 7z]
-Exec=konsole --new-tab -e ~/my/scripts/zsh/7z.zsh %F
-Name=7z
-
-[Desktop Action 7z-psswd]
-Exec=konsole --new-tab -e ~/my/scripts/zsh/7z.zsh --psswd %F
-Name=7z-psswd
-
-[Desktop Action upload-FtC]
-Exec=~/my/scripts/zsh/upload-FtC.zsh %F
-Name=upload-FtC
-
-[Desktop Action upload-FtC-wInLogs]
-Exec=~/my/scripts/zsh/upload-FtC.zsh --wInLogs %F
-Name=upload-FtC-wInLogs
-
 [Desktop Action mktorrent]
-Exec=~/my/scripts/zsh/mktorrent.zsh %F
+Exec=~/git/zsh-scripts/src/mktorrent.zsh %F
 Name=mktorrent
 
-[Desktop Action mktorrent-inMkv]
-Exec=~/my/scripts/zsh/mktorrent.zsh --inMkv %F
-Name=mktorrent-inMkv
-
+[Desktop Action mktorrent-in]
+Exec=~/git/zsh-scripts/src/mktorrent.zsh --inMkv %F
+Name=mktorrent-in
 
 [Desktop Action albumart-dl]
-Exec=~/my/scripts/zsh/albumart-dl.zsh %F
+Exec=~/git/zsh-scripts/src/albumart-dl.zsh %F
 Name=albumart-dl
 
 [Desktop Action fonts-copy]
-Exec=~/my/scripts/zsh/fonts-folder-copy.zsh %F
+Exec=~/git/zsh-scripts/src/fonts-folder-copy.zsh %F
 Name=fonts-copy
