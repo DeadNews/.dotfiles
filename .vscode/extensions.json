@@ -6,11 +6,9 @@
     // Other
     "alefragnani.project-manager",
     "eamodio.gitlens",
-    "emilast.LogFileHighlighter",
     // Formatters
     "esbenp.prettier-vscode",
     "redhat.vscode-yaml",
     "tamasfe.even-better-toml"
-    // "yzhang.markdown-all-in-one",
   ]
 }
