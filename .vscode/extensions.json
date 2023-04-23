@@ -1,16 +1,14 @@
 {
-    "recommendations": [
-        "alefragnani.project-manager",
-        "yzhang.markdown-all-in-one",
-        "eamodio.gitlens",
-        "edonet.vscode-command-runner",
-        "emilast.LogFileHighlighter",
-        "formulahendry.code-runner",
-        "mikestead.dotenv",
-        "naumovs.color-highlight",
-        "redhat.vscode-yaml",
-        "tamasfe.even-better-toml",
-        "vscode-icons-team.vscode-icons",
-        "zhuangtongfa.material-theme"
-    ]
+  "recommendations": [
+    // Themes
+    "vscode-icons-team.vscode-icons",
+    "zhuangtongfa.material-theme",
+    // Other
+    "alefragnani.project-manager",
+    "eamodio.gitlens",
+    // Formatters
+    "esbenp.prettier-vscode",
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml"
+  ]
 }

@@ -1,16 +1,16 @@
 {
-    "clipboard": "terminal",
-    "colorscheme": "onedark",
-    "eofnewline": false,
-    "keepautoindent": true,
-    "pluginchannels": [
-        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
-    ],
-    "pluginrepos": [],
-    "savecursor": true,
-    "scrollbar": true,
-    "softwrap": true,
-    "tabstospaces": true,
-    "termtitle": false,
-    "trimdiff": false
+  "clipboard": "terminal",
+  "colorscheme": "onedark",
+  "eofnewline": false,
+  "keepautoindent": true,
+  "pluginchannels": [
+    "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+  ],
+  "pluginrepos": [],
+  "savecursor": true,
+  "scrollbar": true,
+  "softwrap": true,
+  "tabstospaces": true,
+  "termtitle": false,
+  "trimdiff": false
 }

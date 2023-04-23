@@ -1,77 +1,75 @@
 {
-    "diffEditor.renderSideBySide": false,
-    "editor.cursorBlinking": "phase",
-    "editor.fontFamily": "Fira Code Retina",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 16,
-    "editor.renderWhitespace": "boundary",
-    "editor.tabSize": 4,
-    "editor.wordWrap": "on",
-    "explorer.confirmDragAndDrop": false,
-    "files.autoSave": "afterDelay",
-    "files.trimTrailingWhitespace": true,
-    "git.allowForcePush": true,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "security.workspace.trust.enabled": false,
-    "telemetry.telemetryLevel": "off",
-    "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.persistentSessionReviveProcess": "never",
-    "terminal.integrated.rightClickBehavior": "selectWord",
-    "terminal.integrated.smoothScrolling": true,
-    "update.mode": "none",
-    "window.newWindowDimensions": "maximized",
-    "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "none",
-    "search.exclude": {
-        "**/.history": true
-    },
-    "files.associations": {
-        "*.desktop": "properties",
-        "*.json": "jsonc",
-    },
-    "[markdown][yaml][toml][json][jsonc]": {
-        "editor.formatOnSave": true,
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "log.error",
-                "settings": {
-                    "foreground": "#e06c75"
-                }
-            },
-            {
-                "scope": "log.warning",
-                "settings": {
-                    "foreground": "#e06c75"
-                }
-            },
-            {
-                "scope": "log.info",
-                "settings": {
-                    "foreground": "#61afef"
-                }
-            }
-        ]
-    },
-    // Exts
-    "code-runner.enableAppInsights": false,
-    "color-highlight.markRuler": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.enabled": false,
-    "gitlens.statusBar.enabled": false,
-    "oneDarkPro.bold": true,
-    "vsicons.dontShowNewVersionMessage": true,
-    "projectManager.git.baseFolders": [
-        "~/git/"
-    ],
-    "python.venvPath": "~/.cache/pypoetry/virtualenvs",
+  "[json][jsonc][yaml][markdown][css][javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json][jsonc][yaml][markdown][toml]": {
+    "editor.formatOnSave": true
+  },
+  "diffEditor.renderSideBySide": false,
+  "editor.cursorBlinking": "phase",
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.renderWhitespace": "boundary",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "log.error",
+        "settings": {
+          "foreground": "#e06c75"
+        }
+      },
+      {
+        "scope": "log.warning",
+        "settings": {
+          "foreground": "#e06c75"
+        }
+      },
+      {
+        "scope": "log.info",
+        "settings": {
+          "foreground": "#61afef"
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "on",
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.desktop": "properties",
+    "*.json": "jsonc",
+    "*.service": "properties"
+  },
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "oneDarkPro.bold": true,
+  "projectManager.git.baseFolders": ["~/git/"],
+  "python.venvPath": "~/.cache/pypoetry/virtualenvs",
+  "search.exclude": {
+    "**/.history": true
+  },
+  "security.workspace.trust.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.rightClickBehavior": "selectWord",
+  "terminal.integrated.smoothScrolling": true,
+  "update.mode": "none",
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.newWindowDimensions": "maximized",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none"
 }

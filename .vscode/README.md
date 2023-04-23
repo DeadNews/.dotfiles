@@ -1,4 +1,4 @@
-# code
+# vscode
 
 - <https://github.com/microsoft/vscode>
 - <https://github.com/stars/DeadNews/lists/vscode>

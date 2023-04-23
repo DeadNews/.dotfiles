@@ -5,13 +5,13 @@
       exclude: ["*/README.md"]
 
 - link:
-    ~/.config/bat/: bat/*
+    ~/.config/bat: bat
     ~/.config/Code - OSS/User/settings.json: .vscode/settings.json
     ~/.config/micro/: micro/**
     ~/.config/pbincli/pbincli.conf: pbincli/pbincli.conf
-    ~/.config/tmux/: tmux/*
+    ~/.config/tmux: tmux
     ~/.local/share/color-schemes/OneDarkNuanced.colors: plasma/OneDarkNuanced.colors
-    ~/.local/share/konsole/: konsole/*
+    ~/.local/share/konsole: konsole
     ~/.local/share/kservices5: kservices5
     ~/.local/share/zsh/user-config.zsh: zsh/user-config.zsh
     ~/.zshrc: zsh/.zshrc
