@@ -24,4 +24,3 @@ repos:
     rev: v0.33.0
     hooks:
       - id: markdownlint-fix
-
