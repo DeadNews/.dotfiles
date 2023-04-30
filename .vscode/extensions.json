@@ -3,12 +3,13 @@
     // Themes
     "vscode-icons-team.vscode-icons",
     "zhuangtongfa.material-theme",
-    // Other
-    "alefragnani.project-manager",
-    "eamodio.gitlens",
-    // Formatters
+    // Formatters // Schema providers
     "esbenp.prettier-vscode",
     "redhat.vscode-yaml",
-    "tamasfe.even-better-toml"
+    "remcohaszing.schemastore",
+    "tamasfe.even-better-toml",
+    // Other
+    "alefragnani.project-manager",
+    "eamodio.gitlens"
   ]
 }
