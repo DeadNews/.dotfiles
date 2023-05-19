@@ -1,7 +1,7 @@
 ci:
   autofix_commit_msg: "chore: auto fixes from `pre-commit` hooks"
   autoupdate_commit_msg: "chore(pre-commit): autoupdate"
-  autoupdate_schedule: monthly
+  autoupdate_schedule: quarterly
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -23,6 +23,12 @@ repos:
         additional_dependencies:
           - prettier
           - prettier-plugin-sort-json
+
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.23.0
+    hooks:
+      - id: check-github-workflows
+      - id: check-renovate
 
   - repo: https://github.com/crate-ci/typos
     rev: v1.14.9
