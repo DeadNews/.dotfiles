@@ -2,3 +2,4 @@
 *.conf linguist-language=ini
 *.colors linguist-language=ini
 *.colorscheme linguist-language=ini
+*.profile linguist-language=ini
