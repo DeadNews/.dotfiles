@@ -10,6 +10,7 @@
     "tamasfe.even-better-toml",
     // Other
     "alefragnani.project-manager",
-    "eamodio.gitlens"
+    "eamodio.gitlens",
+    "usernamehw.errorlens"
   ]
 }

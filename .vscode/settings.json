@@ -10,6 +10,8 @@
   "editor.fontFamily": "Fira Code Retina",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": false,
   "editor.renderWhitespace": "boundary",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
