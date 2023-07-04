@@ -3,7 +3,7 @@ ColorScheme=DarkOneNuanced
 DimmValue=15
 Font=FiraCode Nerd Font Mono,10,-1,5,25,0,0,0,0,0,Light
 TabColor=40,44,52,0
-UseFontLineChararacters=true
+UseFontLineCharacters=true
 
 [Cursor Options]
 CursorShape=1
