@@ -10,7 +10,9 @@
     "tamasfe.even-better-toml",
     // Other
     "alefragnani.project-manager",
+    "carlos-algms.make-task-provider",
     "eamodio.gitlens",
+    "github.vscode-github-actions",
     "usernamehw.errorlens"
   ]
 }
