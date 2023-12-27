@@ -68,6 +68,7 @@
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.rightClickBehavior": "selectWord",
+  "terminal.integrated.scrollback": 3000,
   "terminal.integrated.smoothScrolling": true,
   "update.mode": "none",
   "vsicons.dontShowNewVersionMessage": true,
