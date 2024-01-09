@@ -1,4 +1,4 @@
-.PHONY: dotbot
+.PHONY: all clean test
 
 dotbot:
 	dotbot -c install.conf.yaml
