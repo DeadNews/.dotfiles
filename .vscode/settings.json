@@ -5,7 +5,6 @@
   "[json][jsonc][yaml][markdown][toml]": {
     "editor.formatOnSave": true
   },
-  "codium.editorButton": false,
   "diffEditor.renderSideBySide": false,
   "docker.images.description": ["Size", "CreatedTime"],
   "editor.cursorBlinking": "phase",
