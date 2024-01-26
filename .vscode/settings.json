@@ -1,8 +1,8 @@
 {
-  "[json][jsonc][yaml][markdown][css]": {
+  "[json][jsonc][yaml][markdown][javascript][css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[json][jsonc][yaml][markdown][toml]": {
+  "[json][jsonc][yaml][markdown][toml][dockerfile]": {
     "editor.formatOnSave": true
   },
   "diffEditor.renderSideBySide": false,
