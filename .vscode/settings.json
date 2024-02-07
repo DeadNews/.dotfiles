@@ -5,6 +5,7 @@
   "[json][jsonc][yaml][markdown][toml][dockerfile]": {
     "editor.formatOnSave": true
   },
+  "coverage-gutters.coverageBaseDir": ".",
   "diffEditor.renderSideBySide": false,
   "docker.images.description": ["Size", "CreatedTime"],
   "editor.cursorBlinking": "phase",
@@ -49,6 +50,8 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "githubPullRequests.defaultMergeMethod": "squash",
+  "githubPullRequests.notifications": "pullRequests",
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.enabled": false,

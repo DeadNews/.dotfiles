@@ -12,7 +12,10 @@
     "alefragnani.project-manager",
     "carlos-algms.make-task-provider",
     "eamodio.gitlens",
+    "ryanluker.vscode-coverage-gutters",
+    "usernamehw.errorlens",
+    // Github
     "github.vscode-github-actions",
-    "usernamehw.errorlens"
+    "github.vscode-pull-request-github"
   ]
 }
