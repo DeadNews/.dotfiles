@@ -59,9 +59,6 @@
   "oneDarkPro.bold": true,
   "projectManager.git.baseFolders": ["~/git/"],
   "python.venvPath": "~/.cache/pypoetry/virtualenvs",
-  "search.exclude": {
-    "**/.history": true
-  },
   "security.workspace.trust.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.copyOnSelection": true,
@@ -78,5 +75,11 @@
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none"
+  "inlineChat.holdToSpeech": false,
+  "pyright.disableOrganizeImports": true,
+  "pyright.disableLanguageServices": false,
+  "python.languageServer": "None",
+  "github.copilot.enable": {
+    "markdown": "true"
+  }
 }
