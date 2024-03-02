@@ -27,4 +27,4 @@ if [[ -e /usr/share/zsh/plugins/history-search-multi-word/history-search-multi-w
 fi
 
 # Load vscode shell integration
-[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+[[ "$TERM_PROGRAM" == "vscode" ]] && source /usr/lib/code/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-rc.zsh
