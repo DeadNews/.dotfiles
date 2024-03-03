@@ -15,6 +15,7 @@
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": false,
   "editor.renderWhitespace": "boundary",
+  "editor.stickyScroll.maxLineCount": 1,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -50,18 +51,22 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "github.copilot.enable": {
+    "markdown": "true"
+  },
   "githubPullRequests.defaultMergeMethod": "squash",
   "githubPullRequests.notifications": "pullRequests",
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.enabled": false,
   "gitlens.statusBar.enabled": false,
+  "inlineChat.holdToSpeech": false,
   "oneDarkPro.bold": true,
   "projectManager.git.baseFolders": ["~/git/"],
+  "pyright.disableLanguageServices": false,
+  "pyright.disableOrganizeImports": true,
+  "python.languageServer": "None",
   "python.venvPath": "~/.cache/pypoetry/virtualenvs",
-  "search.exclude": {
-    "**/.history": true
-  },
   "security.workspace.trust.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.copyOnSelection": true,
@@ -72,11 +77,11 @@
   "terminal.integrated.rightClickBehavior": "selectWord",
   "terminal.integrated.scrollback": 3000,
   "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.stickyScroll.enabled": true,
   "update.mode": "none",
   "vsicons.dontShowNewVersionMessage": true,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none"
+  "workbench.iconTheme": "vscode-icons"
 }

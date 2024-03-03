@@ -25,3 +25,6 @@ if [[ -e /usr/share/zsh/plugins/history-search-multi-word/history-search-multi-w
   zstyle "history-search-multi-word" highlight-color "bg=#4f5666,bold"
   zstyle ":plugin:history-search-multi-word" active "standout"
 fi
+
+# Load vscode shell integration
+[[ "$TERM_PROGRAM" == "vscode" ]] && source /usr/lib/code/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-rc.zsh
