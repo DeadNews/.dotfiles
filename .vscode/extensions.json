@@ -8,6 +8,7 @@
     "redhat.vscode-yaml",
     "remcohaszing.schemastore",
     "tamasfe.even-better-toml",
+    "tekumara.typos-vscode",
     // Other
     "alefragnani.project-manager",
     "carlos-algms.make-task-provider",
