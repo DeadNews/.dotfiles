@@ -46,6 +46,7 @@
     "*.service": "properties"
   },
   "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "git.allowForcePush": true,
   "git.autofetch": true,
